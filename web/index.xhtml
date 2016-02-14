@@ -6,7 +6,12 @@
         <title>okitsu</title>
     </h:head>
     <h:body>
-        Hello from Facelets
+        <h2>Create Ticket</h2>
+        <h:form>
+            チケット名：<h:inputText value="#{newTicketBean.title}" /><br/>
+            状態：<h:inputText value="#{newTicketBean.state}" /><br/>
+            <h:commandButton value="送信" action="#{newTicketBean.next()}"/>
+        </h:form>
     </h:body>
 </html>
 

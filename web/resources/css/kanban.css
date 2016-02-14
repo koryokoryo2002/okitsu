@@ -1,0 +1,16 @@
+/* 
+    Created on : 2015/10/08, 23:08:56
+    Author     : koryo
+*/
+
+div.ticketbox {
+    color:#fff;
+    background: #0fc0fc;
+    border: 3px solid #0fc0fc;
+    padding: 10px;
+    margin-bottom:10px;
+    text-align: center;
+    border-radius:20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
